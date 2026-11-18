@@ -1,0 +1,25 @@
+{
+  "version": "Freedoom 0.13.0",
+  "references": ["Chocolate Doom 3.1.1", "Crispy Doom 7.1.0"],
+  "vanilla_dehacked": ["4fbed9ba4ae5ebea957aa149b51a119aaf03160d", "d448d2436e1e25ddd770d9a4645dc471679fc28e"],
+  "iwads": [
+    {
+      "file": "freedoom1.wad",
+      "sha1": "97bb88094a51457a8dcad98c58be22a2d0fa9a37",
+      "directory": "ffbc5da5d1c2bd84c0a01abd876b0702984eeadb",
+      "dehacked": ["3cd805083d07fa9f3e4be0a934a2af57c88a2850", "4bcf979c5b930fc3e90243247a2ca3ce30001529"]
+    },
+    {
+      "file": "freedoom2.wad",
+      "sha1": "975f781e6d801c0a23e3caa33f70493efe68a880",
+      "directory": "001e4109c71141cc75714858499f709848cd2f67",
+      "dehacked": ["3cd805083d07fa9f3e4be0a934a2af57c88a2850", "4bcf979c5b930fc3e90243247a2ca3ce30001529"]
+    },
+    {
+      "file": "freedm.wad",
+      "sha1": "42c36e9d0610bf70c710ca79c7098ef3b1b00059",
+      "directory": "cbb9cfb7692e62450cac21042b6a3ba55fbaada1",
+      "dehacked": ["3cd805083d07fa9f3e4be0a934a2af57c88a2850", "4bcf979c5b930fc3e90243247a2ca3ce30001529"]
+    }
+  ]
+}

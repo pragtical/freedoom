@@ -1,0 +1,47 @@
+{
+  "addons": [
+    {
+      "id": "freedoom",
+      "name": "Freedoom for Pragtical",
+      "description": "Freedoom in an editor tab, with in-process Woof and Odamex engines, LuaJIT FFI and Pragtical audio.",
+      "version": "0.1.0",
+      "mod_version": "3.14.0",
+      "type": "plugin",
+      "path": ".",
+      "extra": {
+        "license": "MIT (Lua integration); GPL-2.0-or-later (native bridges); upstream engine and dependency licenses in notices; BSD-3-Clause game data"
+      },
+      "files": [
+        {
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom-iwads-0.13.0.zip",
+          "checksum": "82e4660f42e1dfe14621c50a5c5cafbc67fe2073d1908057ce16399228543ac3"
+        },
+        {
+          "arch": "x86_64-linux",
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom.x86_64-linux.tar.gz",
+          "checksum": "SKIP"
+        },
+        {
+          "arch": "aarch64-linux",
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom.aarch64-linux.tar.gz",
+          "checksum": "SKIP"
+        },
+        {
+          "arch": "x86_64-darwin",
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom.x86_64-darwin.tar.gz",
+          "checksum": "SKIP"
+        },
+        {
+          "arch": "aarch64-darwin",
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom.aarch64-darwin.tar.gz",
+          "checksum": "SKIP"
+        },
+        {
+          "arch": "x86_64-windows",
+          "url": "https://github.com/pragtical/freedoom/releases/download/latest/freedoom.x86_64-windows.zip",
+          "checksum": "SKIP"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  global: fd_odamex_run;
+  local: *;
+};

@@ -1,0 +1,6 @@
+[wrap-file]
+directory = woof-4553f9a739d8979a69907c9dab384678902522fa
+source_url = https://codeload.github.com/fabiangreffrath/woof/tar.gz/4553f9a739d8979a69907c9dab384678902522fa
+source_filename = woof-16.0.0.tar.gz
+source_hash = bafe46bbd977315c399cd2578055df3669ac836bbe6dea2571f1f777ba87d6f0
+patch_directory = woof

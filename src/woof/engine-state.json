@@ -1,0 +1,3721 @@
+{
+  "common": {
+    "am_def.c": {
+      "sha256": "cc13d39ac5c2d7138352520c69c6c828694ab273091e0d0a99d199be0716825f",
+      "globals": [],
+      "locals": []
+    },
+    "d_demoloop.c": {
+      "sha256": "6a94d2be5f823d60b204444e2af005828838b152aafe90f6df88b4fb6a73c2b1",
+      "globals": [
+        "demoloop",
+        "demoloop_commercial",
+        "demoloop_count",
+        "demoloop_registered",
+        "demoloop_retail"
+      ],
+      "locals": []
+    },
+    "d_items.c": {
+      "sha256": "08d295a4ea13f042feb9c36b8f8d73588b7de84b81aad41165bdc9a6edbbbbe2",
+      "globals": [
+        "weaponinfo"
+      ],
+      "locals": []
+    },
+    "decl_main.c": {
+      "sha256": "909678f7ac3d7846f555f85f9903836ce83af3627f9f68b3290cabd08b7d3f61",
+      "globals": [
+        "actors"
+      ],
+      "locals": []
+    },
+    "decl_props.c": {
+      "sha256": "dc95c411c499071a8270e7ba6fc7cc151355445875f25778c98db650666c5a4e",
+      "globals": [
+        "decl_flags",
+        "decl_flags_mbf21",
+        "decl_items",
+        "decl_properties"
+      ],
+      "locals": []
+    },
+    "decl_states.c": {
+      "sha256": "8cdcaa0132f888f78df8235941ddc1f6783984e6a487ef2ca3c8b7623a71df58",
+      "globals": [
+        "actions"
+      ],
+      "locals": []
+    },
+    "deh_ammo.c": {
+      "sha256": "0f60325317c4844448bf059903f7b43b22dffa74d6c2254ef801b5c279133717",
+      "globals": [
+        "deh_section_ammo"
+      ],
+      "locals": []
+    },
+    "deh_bex_helper.c": {
+      "sha256": "0d25eba15c15f2fb75b4528fa9d396d275374fd7dbd75b191ea5071e4c4d143f",
+      "globals": [
+        "deh_section_bex_helper"
+      ],
+      "locals": []
+    },
+    "deh_bex_includes.c": {
+      "sha256": "9f3c27052a015597c82ebc5c971c83342f55c23e2fcc978a8ffdfd6fdc2ae74c",
+      "globals": [
+        "bex_nested",
+        "deh_section_bex_includes"
+      ],
+      "locals": []
+    },
+    "deh_bex_music.c": {
+      "sha256": "93b7b2bbd592b537207184bcc9f6fcbf9e54cc24fb5382b499bf89aa8b55763a",
+      "globals": [
+        "deh_section_bex_music",
+        "modified"
+      ],
+      "locals": []
+    },
+    "deh_bex_partimes.c": {
+      "sha256": "39f37dad1abc8546befadf8c0fbef29bff3d4a04c9758d4835ae138b8792a3bb",
+      "globals": [
+        "bex_cpars",
+        "bex_pars",
+        "bex_partimes",
+        "deh_section_bex_partimes"
+      ],
+      "locals": []
+    },
+    "deh_bex_pointers.c": {
+      "sha256": "d7d1c4cc9cf71d42a77873f82f8cf073a3dafc8c1ec961b2425ed26b301535dd",
+      "globals": [
+        "deh_section_bex_codepointers",
+        "translate_sounds",
+        "translate_states",
+        "translate_things"
+      ],
+      "locals": []
+    },
+    "deh_bex_sounds.c": {
+      "sha256": "cacdcec20b0dc96eafab5bccfb45b9d439adc121a154173ecc1e0c499d7fc989",
+      "globals": [
+        "deh_section_bex_sounds"
+      ],
+      "locals": []
+    },
+    "deh_bex_sprites.c": {
+      "sha256": "cad5ab8f3275b99008198d00f5bb26235566bf4cb42fcc8906df0cbdbdc86bec",
+      "globals": [
+        "deh_section_bex_sprites"
+      ],
+      "locals": []
+    },
+    "deh_bex_strings.c": {
+      "sha256": "a35036c47ce14363c9bfcec41e724eb651d7dae1729d4f570cc00f91f3f6fae2",
+      "globals": [
+        "deh_section_bex_strings"
+      ],
+      "locals": []
+    },
+    "deh_cheat.c": {
+      "sha256": "f4ef4c82eee52ae58d5fdc68eb90b460343262bd16bd8c67c34331b2024e5fa5",
+      "globals": [
+        "deh_section_cheat"
+      ],
+      "locals": []
+    },
+    "deh_frame.c": {
+      "sha256": "c4031e2300758f7db382eb782e36513c8d0ab104f55db877341c7646113d40e4",
+      "globals": [
+        "defined_args",
+        "deh_mapping_base",
+        "deh_section_frame",
+        "state_mapping"
+      ],
+      "locals": []
+    },
+    "deh_io.c": {
+      "sha256": "5d523c1b02183457cc535501628153cab51f6333107772932012dd59a2c97522",
+      "globals": [],
+      "locals": []
+    },
+    "deh_mapping.c": {
+      "sha256": "de7354f83fb2d73440a5856cac604a9c48c99de9fa524fe983ed696f2b01c558",
+      "globals": [],
+      "locals": []
+    },
+    "deh_misc.c": {
+      "sha256": "ff5aafe1dec8e9748d6e81b980cca41633d215499e8d89096937727ba74d5a96",
+      "globals": [
+        "deh_bfg_cells_per_shot",
+        "deh_blue_armor_class",
+        "deh_god_mode_health",
+        "deh_green_armor_class",
+        "deh_idfa_armor",
+        "deh_idfa_armor_class",
+        "deh_idkfa_armor",
+        "deh_idkfa_armor_class",
+        "deh_initial_bullets",
+        "deh_initial_health",
+        "deh_max_armor",
+        "deh_max_health",
+        "deh_max_health_bonus",
+        "deh_max_soulsphere",
+        "deh_megasphere_health",
+        "deh_section_misc",
+        "deh_set_bfgcells",
+        "deh_set_maxhealth",
+        "deh_soulsphere_health",
+        "deh_species_infighting",
+        "misc_settings"
+      ],
+      "locals": []
+    },
+    "deh_pointer.c": {
+      "sha256": "c9610c4c01b630a05ddfdf71129f2731cfc12b3665789fef601fe62213f88f0c",
+      "globals": [
+        "deh_section_pointer"
+      ],
+      "locals": []
+    },
+    "deh_sound.c": {
+      "sha256": "5238feeee9b0bc7444e3017dafb645dedb9ad6bfc745c8ef52e4b0f61271b9a9",
+      "globals": [
+        "deh_mapping_base",
+        "deh_section_sound",
+        "sound_mapping"
+      ],
+      "locals": []
+    },
+    "deh_strings.c": {
+      "sha256": "5ca950ac83cff3cf3f676b9705ff1a2c0e3e27f5f18eeca42111ac7e343b0d50",
+      "globals": [
+        "color_count",
+        "color_strings",
+        "hash_table",
+        "hash_table_entries",
+        "hash_table_length"
+      ],
+      "locals": []
+    },
+    "deh_text.c": {
+      "sha256": "24e20a296463b9c89021b24ff9a9cdbcdd7c2a6a3966b3c94da9469d34d26392",
+      "globals": [
+        "bex_notext",
+        "deh_section_text"
+      ],
+      "locals": []
+    },
+    "deh_thing.c": {
+      "sha256": "47c3c56d31a9796f95dae79c56e73130b5a44ced2d4f9af22afcee047d1a48af",
+      "globals": [
+        "deh_mapping_base",
+        "deh_section_thing",
+        "deh_set_blood_color",
+        "thing_mapping"
+      ],
+      "locals": []
+    },
+    "deh_weapon.c": {
+      "sha256": "92debca96e31f385477260c7116242edf7aed18f78af13d34c8da7369c3548e0",
+      "globals": [
+        "deh_mapping_base",
+        "deh_section_weapon",
+        "weapon_mapping"
+      ],
+      "locals": []
+    },
+    "dsdh_main.c": {
+      "sha256": "8409d9fd341725feed6222476e7cb0c5b39f0baab31f04bbad945232f9ecf4aa",
+      "globals": [],
+      "locals": []
+    },
+    "dsdh_mobjinfo.c": {
+      "sha256": "4e1b3773754c7bc2eac3246343558ae6f0c03fc29058574f39740a318b8b7408",
+      "globals": [
+        "max_thing_number",
+        "mobjinfo",
+        "num_mobj_types",
+        "translate"
+      ],
+      "locals": []
+    },
+    "dsdh_sounds.c": {
+      "sha256": "4527b8077080fac6118fb7e9b46550593e0a63c01142308b707222d57201f66a",
+      "globals": [
+        "S_sfx",
+        "max_sfx_number",
+        "num_sfx",
+        "translate"
+      ],
+      "locals": []
+    },
+    "dsdh_sprites.c": {
+      "sha256": "a9649303d0361fb4e70c4f6ea9daf7e1f1373e838a63ef9ebcba43f06af462a7",
+      "globals": [
+        "max_sprite_number",
+        "num_sprites",
+        "sprnames",
+        "translate"
+      ],
+      "locals": []
+    },
+    "dsdh_states.c": {
+      "sha256": "8e60dbb3bf19eceaff15fb803ff42969054eb26eea38174b23b12eb3bad0c16f",
+      "globals": [
+        "max_frame_number",
+        "num_states",
+        "states",
+        "translate"
+      ],
+      "locals": []
+    },
+    "g_input.c": {
+      "sha256": "9106e42c539252602cd2e908b738e2205417f7d0ad076151f1b51afe5bd608ae",
+      "globals": [
+        "AccelerateMouse",
+        "G_CalcGamepadAngle",
+        "G_CarryAngle",
+        "G_CarryAngleTic",
+        "RoundSide",
+        "carry",
+        "deltatics",
+        "joy_scale_angle",
+        "joy_scale_pitch",
+        "mouse_acceleration",
+        "mouse_acceleration_threshold",
+        "mouse_scale",
+        "mouse_sens_angle",
+        "mouse_sens_pitch",
+        "mouse_sens_side",
+        "mouse_sens_vert",
+        "mouse_sensitivity",
+        "mouse_sensitivity_strafe",
+        "mouse_sensitivity_y",
+        "mouse_sensitivity_y_look",
+        "mouse_y_invert",
+        "prevcarry"
+      ],
+      "locals": []
+    },
+    "g_nextweapon.c": {
+      "sha256": "d69520691eb502e6f962647cda8c8532d37b17dea56419d435c7dc0c32a9ed4f",
+      "globals": [
+        "currently_active",
+        "doom_weapon_cycle",
+        "state",
+        "vanilla_nextweapon"
+      ],
+      "locals": []
+    },
+    "g_rewind.c": {
+      "sha256": "8b0a319e4f7fcc4ee3c0c8fc9b8efdc202dffd84f42bd5a1ccb1b4224ce0f100",
+      "globals": [
+        "disable_rewind",
+        "interval_tics",
+        "queue",
+        "rewind_auto",
+        "rewind_depth",
+        "rewind_interval",
+        "rewind_timeout"
+      ],
+      "locals": []
+    },
+    "g_umapinfo.c": {
+      "sha256": "27ef0f727d50021f0764ee797bbcdd8c3ecf68612ddaa26ad7d8ab3736d7b904",
+      "globals": [
+        "secretlevels",
+        "umapinfo"
+      ],
+      "locals": []
+    },
+    "hu_command.c": {
+      "sha256": "03e7f919937fb9f712ee21f40c2a2e737ffc8bd31c155ebc3e6e3536d3849075",
+      "globals": [
+        "current",
+        "hud_cmd_items",
+        "hud_command_history",
+        "hud_command_history_size",
+        "hud_hide_empty_commands",
+        "lowres_turn_format"
+      ],
+      "locals": []
+    },
+    "hu_crosshair.c": {
+      "sha256": "4443fa8282c88a6f5bdb139de7f13ef61c43d87cb66d7459d9f26fe6a3ad0684",
+      "globals": [
+        "crosshair",
+        "crosshair_lumps",
+        "crosshair_strings",
+        "crosshair_target",
+        "hud_crosshair",
+        "hud_crosshair_color",
+        "hud_crosshair_health",
+        "hud_crosshair_lockon",
+        "hud_crosshair_target",
+        "hud_crosshair_target_color",
+        "plr"
+      ],
+      "locals": []
+    },
+    "hu_obituary.c": {
+      "sha256": "4e0559939d929296511c4121cf1965ed2fa1e49ebe15fc4c401848a914a4cff5",
+      "globals": [
+        "hudcolor_obituary",
+        "playerstr",
+        "show_obituary_messages"
+      ],
+      "locals": []
+    },
+    "i_flickstick.c": {
+      "sha256": "d6c41538eaa31ee3e79c73a3b1e409b5fce8912340b6db67e0b53dab8f87a8a5",
+      "globals": [
+        "flick",
+        "joy_flick_deadzone",
+        "joy_flick_forward_deadzone",
+        "joy_flick_mode",
+        "joy_flick_rotation_smooth",
+        "joy_flick_rotation_speed",
+        "joy_flick_snap",
+        "joy_flick_time"
+      ],
+      "locals": []
+    },
+    "i_glob.c": {
+      "sha256": "7f4254ec7e982580b4c9648498fe27ef654c26c24bc75c4fa560ce30a85fa8b1",
+      "globals": [],
+      "locals": []
+    },
+    "i_gyro.c": {
+      "sha256": "1df2bf1fcafe595077387b42a56422abe192302bcfcf2a8a7f2f7b41c1d842e3",
+      "globals": [
+        "AccelerateGyro",
+        "ApplyGyroSpace",
+        "CalcGravityVector",
+        "SmoothGyro",
+        "TightenGyro",
+        "cal",
+        "gyro_accel_max_threshold",
+        "gyro_accel_min_threshold",
+        "gyro_acceleration",
+        "gyro_axes",
+        "gyro_button_action",
+        "gyro_calibration_a",
+        "gyro_calibration_x",
+        "gyro_calibration_y",
+        "gyro_calibration_z",
+        "gyro_enable",
+        "gyro_local_roll",
+        "gyro_look_sensitivity",
+        "gyro_press",
+        "gyro_smooth_threshold",
+        "gyro_smooth_time",
+        "gyro_space",
+        "gyro_stick_action",
+        "gyro_tap",
+        "gyro_tightening",
+        "gyro_time",
+        "gyro_turn_sensitivity",
+        "motion",
+        "raw"
+      ],
+      "locals": []
+    },
+    "i_mbfsound.c": {
+      "sha256": "f769266dcfc1b2d12a9be5427bb5f1469efdda5cc1421afe20cf94ffcc8081f9",
+      "globals": [
+        "force_flip_pan"
+      ],
+      "locals": []
+    },
+    "i_richpresence.c": {
+      "sha256": "11a3e3d9b79276487f68dee795718606be9dc31d1c26f71c156e756670407924",
+      "globals": [],
+      "locals": []
+    },
+    "info.c": {
+      "sha256": "c2ce4c03a2416f9e32d9396b5fe10a43a1deae41a1e6beae9ef9deb7b60e6581",
+      "globals": [
+        "original_mobjinfo",
+        "original_sprnames",
+        "original_states"
+      ],
+      "locals": []
+    },
+    "kf_file.c": {
+      "sha256": "727860d8466f1cc303dde7393140396091852343c09e81113efe7265f490f263",
+      "globals": [
+        "actions",
+        "ceilinglist_pointers",
+        "msecnode_pointers",
+        "platlist_pointers",
+        "tclass_to_index",
+        "thinker_pointers"
+      ],
+      "locals": []
+    },
+    "kf_memory.c": {
+      "sha256": "6eb296ff610f86a6e030cf3164505d954a8462d435935164d5a35fa9ea9bf246",
+      "globals": [
+        "buffer",
+        "buffer_size",
+        "curr_p"
+      ],
+      "locals": []
+    },
+    "m_arena.c": {
+      "sha256": "dc643218090a03f185dd00ca2c002876de646394ef1b3896a3cb61dd9b907890",
+      "globals": [],
+      "locals": []
+    },
+    "m_argv.c": {
+      "sha256": "37b4d5a04a2e4f226542c27dd4a369be29cbe612f14bd9c668014623b1710722",
+      "globals": [
+        "myargc",
+        "myargv"
+      ],
+      "locals": []
+    },
+    "m_array.c": {
+      "sha256": "d56f284504b5828b4f51251522b156c2c73f2a243f85cbc905fe8a62f264899a",
+      "globals": [],
+      "locals": []
+    },
+    "m_bbox.c": {
+      "sha256": "f482ff04ea63d6827762608227830efdc421e0e1898710de8f7eec9580f6ee4a",
+      "globals": [],
+      "locals": []
+    },
+    "m_hashmap.c": {
+      "sha256": "25c0526189fa13de84e8fca39fdd8764d97410a0f5ffe8efc671583ae2794c11",
+      "globals": [],
+      "locals": []
+    },
+    "m_input.c": {
+      "sha256": "fb5a331f130cf3a81fd79bf4e38d41c1b0390644913d2a1a8299ccbd976dd383",
+      "globals": [
+        "composite_inputs",
+        "default_inputs",
+        "event",
+        "joyb_platform_names",
+        "mouseb_names"
+      ],
+      "locals": []
+    },
+    "m_json.c": {
+      "sha256": "2850cf4d37c574e1021c685204b93af178bc93c52d619021b9625bade334974b",
+      "globals": [
+        "docs"
+      ],
+      "locals": []
+    },
+    "m_scanner.c": {
+      "sha256": "3abf244f78763c4c84b4b7aad976a565877de71b9a51aedfe8505a071f2def12",
+      "globals": [],
+      "locals": []
+    },
+    "mn_font.c": {
+      "sha256": "b07b1012786e9acdcfd78e50265e2d29102a56def2c30d4b2f3c1fd85548bd70",
+      "globals": [
+        "chars",
+        "firstc",
+        "height",
+        "kerning",
+        "numchars",
+        "upper"
+      ],
+      "locals": []
+    },
+    "m_random.c": {
+      "sha256": "f9b5f014a38465360744dbab1b2d830b08da59b47d9013ec7cbb0bf3fe98cda1",
+      "globals": [
+        "default_demo_insurance",
+        "demo_insurance",
+        "rng",
+        "rngseed",
+        "wrndindex"
+      ],
+      "locals": []
+    },
+    "mn_snapshot.c": {
+      "sha256": "6072c67e82c89c3b688af61182691a9496c0a9d458380a6a36ee72b16e522bf8",
+      "globals": [
+        "current_snapshot",
+        "savegametimes",
+        "snapshots"
+      ],
+      "locals": []
+    },
+    "memio.c": {
+      "sha256": "5a7beac6b2a5de0f91362b585dc9b8e047c277900200c4baaa17496716ce3f79",
+      "globals": [],
+      "locals": []
+    },
+    "midifallback.c": {
+      "sha256": "41fe20886ac402fe365326152cebbe96aff14538042178c5f270bb64602d0686",
+      "globals": [
+        "bank_msb",
+        "drum_map"
+      ],
+      "locals": []
+    },
+    "midifile.c": {
+      "sha256": "fca163db004037519b7e3f72f6f9e0f75c4cb84d4fd19492e052a7247c8912d3",
+      "globals": [],
+      "locals": []
+    },
+    "mus2mid.c": {
+      "sha256": "c8a2c4359a614ca5a955bbcbb9e550c14f41a98c80a5a4ed9a5fef72677effc3",
+      "globals": [
+        "channel_map",
+        "channelvelocities",
+        "queuedtime",
+        "tracksize"
+      ],
+      "locals": []
+    },
+    "nano_bsp.c": {
+      "sha256": "a0d0055e1fae0aa9290f36e68499419d77fc235ea148412baf1aa7c616030ba7",
+      "globals": [
+        "nano_seg_index"
+      ],
+      "locals": []
+    },
+    "net_common.c": {
+      "sha256": "c8c4caf1137b99d820ba3716efd5371bed69a5abc6429e8b0370f3bbbe656bf9",
+      "globals": [
+        "net_debug"
+      ],
+      "locals": []
+    },
+    "net_dedicated.c": {
+      "sha256": "a53b46441f4c179d7b63dcc4d056c3515c0fb472236416e3ae16d47b636e3797",
+      "globals": [
+        "not_dedicated_options"
+      ],
+      "locals": []
+    },
+    "net_loop.c": {
+      "sha256": "f6af14f71124b9268f3037e2a12f0a2134a19102fcdce1124ab2f63f14cc1797",
+      "globals": [
+        "client_addr",
+        "client_queue",
+        "net_loop_client_module",
+        "net_loop_server_module",
+        "server_addr",
+        "server_queue"
+      ],
+      "locals": []
+    },
+    "net_packet.c": {
+      "sha256": "d1272de7f5bd5251b8c8c0d412b69836659c8588351769194950de8c5d368562",
+      "globals": [
+        "total_packet_memory"
+      ],
+      "locals": []
+    },
+    "net_query.c": {
+      "sha256": "3186c02254cd220d38981ff2f65eefe4d9cdeda4e31a79944e15974041f60716",
+      "globals": [
+        "got_master_response",
+        "last_query_time",
+        "num_targets",
+        "printed_header",
+        "query_context",
+        "query_loop_running",
+        "registered_with_master",
+        "targets"
+      ],
+      "locals": []
+    },
+    "net_server.c": {
+      "sha256": "eab9e9cf44ea1bc6ff625a7e5b0cfeaefa9e5a8c48af5b88e45f29704ec889dc",
+      "globals": [
+        "clients",
+        "master_refresh_time",
+        "master_resolve_time",
+        "master_server",
+        "recvwindow",
+        "recvwindow_start",
+        "server_context",
+        "server_initialized",
+        "server_state",
+        "sv_gamemission",
+        "sv_gamemode",
+        "sv_players",
+        "sv_settings"
+      ],
+      "locals": []
+    },
+    "net_structrw.c": {
+      "sha256": "2b5c45c75a370a09f851cfb9acd8564332fb959148a6d41f12fdc779809f9107",
+      "globals": [
+        "protocol_names"
+      ],
+      "locals": []
+    },
+    "p_ambient.c": {
+      "sha256": "db93efee82c7d98a0cb5f2a63d9d38144b65e343e3f8a1f4e646916f3e7959ce",
+      "globals": [
+        "zmt_ambientsound"
+      ],
+      "locals": []
+    },
+    "p_blockmap.c": {
+      "sha256": "bbcdb4e7445a2d639eebf7228a62798fa4bd8e3655b19fd1cba8facbae7cf2d4",
+      "globals": [
+        "bmap_format_names"
+      ],
+      "locals": []
+    },
+    "p_bsp.c": {
+      "sha256": "4c1c4ae1ca3c7ea19c030f34f4bd5993549e88b2cd24d71c7f335eb3c95175b5",
+      "globals": [],
+      "locals": []
+    },
+    "p_ceilng.c": {
+      "sha256": "bb23323fe2bfc373832b0a111b8367b9101f64a4e9b3480fbf5860057375e870",
+      "globals": [
+        "activeceilings",
+        "activeceilings_arena"
+      ],
+      "locals": []
+    },
+    "p_dirty.c": {
+      "sha256": "60c40bfa434e35046041a547493d7339b5cbe5d0c9a8eef63ad3631d9b3f77ee",
+      "globals": [
+        "dirty_lines",
+        "dirty_sides",
+        "levels"
+      ],
+      "locals": []
+    },
+    "p_doors.c": {
+      "sha256": "a18c0a1892560ab8c8b92e480bc143e009fe2271d11e5edac3e1bec0d4498eb1",
+      "globals": [],
+      "locals": []
+    },
+    "p_floor.c": {
+      "sha256": "a548b5405767f3974c4a384777191fcf216af0dc3135f67b8c7476e2872bab6e",
+      "globals": [],
+      "locals": []
+    },
+    "p_genlin.c": {
+      "sha256": "5d8ecbf0386dce539ba99b0d0fda8277615f6ca4caf4c9eb23076da78d30cba3",
+      "globals": [],
+      "locals": []
+    },
+    "p_inter.c": {
+      "sha256": "358ec346d855108fd2d6dd35d8a59b04ecee19242805fe237acf5b7436754bb3",
+      "globals": [
+        "clipammo",
+        "maxammo"
+      ],
+      "locals": []
+    },
+    "p_lights.c": {
+      "sha256": "6d33a0f0e4472c9f0b646465cb4935ade779ebba54e0a4570576e5045c035d34",
+      "globals": [],
+      "locals": []
+    },
+    "p_maputl.c": {
+      "sha256": "818109eb26dd03f5a8f1317cdcc0ffce84b702ce120ba6e91cc38a22b5d1436c",
+      "globals": [
+        "P_PointOnDivlineSide",
+        "P_PointOnLineSide",
+        "blockmapfix",
+        "intercept_p",
+        "intercepts",
+        "intercepts_overrun",
+        "lowfloor",
+        "num_intercepts",
+        "openbacksector",
+        "openbottom",
+        "openfrontsector",
+        "openrange",
+        "opentop",
+        "trace"
+      ],
+      "locals": []
+    },
+    "p_plats.c": {
+      "sha256": "88674e0f4f3436e924374e4cdac7b604d9250e8b243aaed81b575e1020a4c660",
+      "globals": [
+        "activeplats",
+        "activeplats_arena"
+      ],
+      "locals": []
+    },
+    "p_saveg.c": {
+      "sha256": "a45194d52ff03492c7881f92952b4035635ecc7545877f741f2a27263fa791ae",
+      "globals": [
+        "save_p",
+        "saveg_compat",
+        "specials_e"
+      ],
+      "locals": []
+    },
+    "p_sight.c": {
+      "sha256": "b149c4249ebf8e41a2a50482e83f81ca73828c95f102d5a25468f4ad3e184232",
+      "globals": [
+        "P_CheckSight",
+        "checksight12"
+      ],
+      "locals": []
+    },
+    "p_switch.c": {
+      "sha256": "77a285a36ddcaa5cb02db584401453d19d98a7f3c557146aeb23695d5f5016a9",
+      "globals": [
+        "buttonlist",
+        "max_numswitches",
+        "numswitches",
+        "switchlist"
+      ],
+      "locals": []
+    },
+    "p_telept.c": {
+      "sha256": "c92c0db0dadd2d6250b203493cdf0a52f7195b14df65441e7c39542f0f3362b9",
+      "globals": [
+        "sectors_telept"
+      ],
+      "locals": []
+    },
+    "p_tick.c": {
+      "sha256": "c71ffe27fae7fcb35b5165a8ad119ccd1926a08d4ccc8fea5940bd4faf09db1b",
+      "globals": [
+        "currentthinker",
+        "init_thinkers_count",
+        "leveltime",
+        "oldleveltime",
+        "thinkercap",
+        "thinkerclasscap",
+        "thinkers_arena"
+      ],
+      "locals": []
+    },
+    "p_udmf.c": {
+      "sha256": "517f5b8eb5002e8297a8e24bf25b29225619e10b05a547921c82fffe9c25a0d3",
+      "globals": [
+        "udmf_flags",
+        "udmf_linedefs",
+        "udmf_sectors",
+        "udmf_sidedefs",
+        "udmf_things",
+        "udmf_vertexes"
+      ],
+      "locals": []
+    },
+    "p_user.c": {
+      "sha256": "0f1c7e333ec178c338f71c071394461be9e577a3b51fad45ea06888dbe27afe7",
+      "globals": [
+        "death_use_action",
+        "death_use_state",
+        "onground"
+      ],
+      "locals": []
+    },
+    "r_bmaps.c": {
+      "sha256": "f18189e5f1a6bb6822426350589d06427853ee425ef2efdecb8cc88fdc18f3f2",
+      "globals": [
+        "allbrightmaps",
+        "brightmaps",
+        "dc_brightmap",
+        "flats_bm",
+        "force_brightmaps",
+        "sprites_bm",
+        "states_bm",
+        "textures_bm"
+      ],
+      "locals": []
+    },
+    "r_draw.c": {
+      "sha256": "901b4cf329be3de78c13433bd90843d940e793eebd77cf0ed1ede359337254ab",
+      "globals": [
+        "R_DrawFuzzColumn",
+        "background_buffer",
+        "columnofs",
+        "dc_colormap",
+        "dc_iscale",
+        "dc_skycolor",
+        "dc_source",
+        "dc_texheight",
+        "dc_texturemid",
+        "dc_translation",
+        "dc_x",
+        "dc_yh",
+        "dc_yl",
+        "ds_brightmap",
+        "ds_colormap",
+        "ds_source",
+        "ds_x1",
+        "ds_x2",
+        "ds_xfrac",
+        "ds_xstep",
+        "ds_y",
+        "ds_yfrac",
+        "ds_ystep",
+        "fuzzblocksize",
+        "fuzzmode",
+        "fuzzpos",
+        "fuzzpos_tic",
+        "linesize",
+        "scaledviewheight",
+        "scaledviewwidth",
+        "scaledviewx",
+        "scaledviewy",
+        "translationtables",
+        "viewheight",
+        "viewwidth",
+        "viewwindowx",
+        "viewwindowy",
+        "ylookup"
+      ],
+      "locals": []
+    },
+    "r_main.c": {
+      "sha256": "0133fe28001391ad193b44d61af9c024fafa4ee9981042c028da1b27013d5989",
+      "globals": [
+        "CalcViewAngle",
+        "R_PointOnSide",
+        "autodetect_hom",
+        "centerx",
+        "centerxfrac",
+        "centerxfrac_nonwide",
+        "centery",
+        "centeryfrac",
+        "clipangle",
+        "colfunc",
+        "colormaps",
+        "extra_level_brightness",
+        "extralight",
+        "fixedcolormap",
+        "fixedcolormapoffset",
+        "flashing_hom",
+        "focallength",
+        "fullcolormap",
+        "lightfocallength",
+        "linearskyangle",
+        "localview",
+        "max_project_slope",
+        "numcolormaps",
+        "planezlightoffset",
+        "projection",
+        "raw_input",
+        "rendered_segs",
+        "rendered_visplanes",
+        "rendered_vissprites",
+        "rendered_voxels",
+        "scaledviewwidth_nonwide",
+        "scalelightoffset",
+        "setblocks",
+        "setsizeneeded",
+        "skyiscale",
+        "validcount",
+        "viewangle",
+        "viewangleoffset",
+        "viewangletox",
+        "viewcos",
+        "viewheightfrac",
+        "viewpitch",
+        "viewplayer",
+        "viewsin",
+        "viewwidth_nonwide",
+        "viewx",
+        "viewy",
+        "viewz",
+        "vx_clipangle",
+        "walllightoffset",
+        "xtoviewangle",
+        "zlightoffset"
+      ],
+      "locals": []
+    },
+    "r_plane.c": {
+      "sha256": "44cbb95280d5de6d9b90475cc9332dc5a0a4c1753047385583aefbd2fa2b08c6",
+      "globals": [
+        "angle_cos",
+        "angle_sin",
+        "cacheddistance",
+        "cachedheight",
+        "cachedrotation",
+        "cachedxstep",
+        "cachedystep",
+        "ceilingclip",
+        "ceilingplane",
+        "floorclip",
+        "floorplane",
+        "freehead",
+        "freetail",
+        "lastopening",
+        "linearsky",
+        "maxopenings",
+        "openings",
+        "planeheight",
+        "rotation",
+        "skytran",
+        "spanstart",
+        "viewx_trans",
+        "viewy_trans",
+        "visplanes",
+        "xoffs",
+        "xtoskyangle",
+        "yoffs",
+        "yslope"
+      ],
+      "locals": []
+    },
+    "r_sky.c": {
+      "sha256": "5dfafabe6c2df4a74c42ee20b3da6714a5404ed7574572f69917ae37b4b52372",
+      "globals": [
+        "levelskies",
+        "skycolors",
+        "skydefs",
+        "skyflatnum",
+        "stretchsky"
+      ],
+      "locals": []
+    },
+    "r_skydefs.c": {
+      "sha256": "5e88a6fb1ad0ab94a14b1601f2d44c075e566e1aa1c4ef5d945b8bcdcb412a71",
+      "globals": [],
+      "locals": []
+    },
+    "r_things.c": {
+      "sha256": "ec6273a933d28f3d3a5741295d6d98aecb3236ffe2148367be24e969017bdbb0",
+      "globals": [
+        "clipbot",
+        "cliptop",
+        "draw_nearby_sprites",
+        "drawsegs_xrange",
+        "drawsegs_xrange_count",
+        "drawsegs_xrange_size",
+        "drawsegs_xranges",
+        "flipcorpses",
+        "maxframe",
+        "mceilingclip",
+        "mfloorclip",
+        "nearby_sprites",
+        "negonearray",
+        "num_vissprite",
+        "num_vissprite_alloc",
+        "num_vissprite_ptrs",
+        "pspriteiscale",
+        "pspritescale",
+        "screenheightarray",
+        "sprites",
+        "sprtemp",
+        "sprtopscreen",
+        "spryscale",
+        "vissprite_ptrs",
+        "vissprites"
+      ],
+      "locals": []
+    },
+    "r_tranmap.c": {
+      "sha256": "71450f8553aec3067502c245d9873b1b0bc30ee52b236a5014cd59191755fc0f",
+      "globals": [
+        "main_addimap",
+        "main_tranmap",
+        "normal_tranmap",
+        "playpal_dir",
+        "playpal_string",
+        "tranmap",
+        "tranmap_dir"
+      ],
+      "locals": []
+    },
+    "s_musinfo.c": {
+      "sha256": "3942b2b64e16f44d870c6db0c89624cee0d83c10cadaefef15410d480b3dd8d4",
+      "globals": [
+        "musinfo"
+      ],
+      "locals": []
+    },
+    "s_sound.c": {
+      "sha256": "e05d766b409f1e7675d4bf09a26dd1d772e96e0986e7d7a9915df05230b01de4",
+      "globals": [
+        "channels",
+        "current_musicnum",
+        "extra_music",
+        "full_sounds",
+        "idmusnum",
+        "max_channels_per_sfx",
+        "max_volume_per_sfx",
+        "mus_paused",
+        "mus_playing",
+        "snd_MusicVolume",
+        "snd_SfxVolume",
+        "snd_channels",
+        "sobjs",
+        "steptable"
+      ],
+      "locals": []
+    },
+    "s_trakinfo.c": {
+      "sha256": "70219568f367af1d6a0b1e8b62f563212d4e7bf4f02d567c7aa2872ec5880cc0",
+      "globals": [
+        "trakinfo",
+        "trakinfo_found"
+      ],
+      "locals": []
+    },
+    "sounds.c": {
+      "sha256": "3bb737917044c1d360028ad1e65e00ec2121bb475994224332ffaead5fb544ad",
+      "globals": [
+        "S_music",
+        "original_S_sfx"
+      ],
+      "locals": []
+    },
+    "st_sbardef.c": {
+      "sha256": "a31ca9d47b16fbf057a641e171a7caac3744bb6b9e772a2f94fd117c96ddfc63",
+      "globals": [
+        "hudfonts",
+        "numberfonts",
+        "sbe_names",
+        "sbw_names",
+        "sbw_names_len"
+      ],
+      "locals": []
+    },
+    "st_carousel.c": {
+      "sha256": "04285821611aa20438631280166a024fc10d2e44f7979c1fc8a6c34c0f81fb56",
+      "globals": [
+        "distance",
+        "duration",
+        "last_index",
+        "last_time",
+        "names",
+        "selected_index",
+        "weapon_icons"
+      ],
+      "locals": []
+    },
+    "statdump.c": {
+      "sha256": "0164c49a6c1a15539561ca7931fe6d5cb286f6f38e10b035978679e676cb1d65",
+      "globals": [
+        "captured_stats",
+        "discovered_gamemission",
+        "num_captured_stats",
+        "player_colors"
+      ],
+      "locals": []
+    },
+    "tables.c": {
+      "sha256": "a43f0e1365de304cdd1f89262ad391c2de1d8d682c40ad2c885b6215ae5e2a20",
+      "globals": [],
+      "locals": []
+    },
+    "v_flextran.c": {
+      "sha256": "62bb521b26260f59648023d4651b0768dd25377cb1020b06a7d0e7a0fb3b5125",
+      "globals": [
+        "Col2RGB8",
+        "Col2RGB8_2",
+        "Col2RGB8_LessPrecision",
+        "RGB32k"
+      ],
+      "locals": []
+    },
+    "v_patch.c": {
+      "sha256": "e8e1dcbc1d15167e069ac79a1e4e9bd6ac65f285e4b0c35aafc08272f77d7762",
+      "globals": [],
+      "locals": []
+    },
+    "v_trans.c": {
+      "sha256": "f85a005e8836e8196a295881bafb6f79d68b78770728133ee1d2e6dbbc5d23b0",
+      "globals": [],
+      "locals": []
+    },
+    "w_file.c": {
+      "sha256": "8e9c7b487f244e12ca6ff5d3c415fe96507817243cbdeb881543a3e9c434a37c",
+      "globals": [
+        "descriptors",
+        "w_file_module"
+      ],
+      "locals": []
+    },
+    "w_zip.c": {
+      "sha256": "4f4843b1f7fdf990e7fa4e31b39c87123eb3c9649e85d74271f27a3e94359602",
+      "globals": [
+        "archives",
+        "w_zip_module"
+      ],
+      "locals": []
+    },
+    "wi_stuff.c": {
+      "sha256": "c98a251c5059acf0bc8323ba04ac71f8c946a4f9d67cbf940b482b941c366fbd",
+      "globals": [
+        "NUMANIMS",
+        "NUMCMAPS",
+        "acceleratestage",
+        "animation",
+        "anims",
+        "bcnt",
+        "bp",
+        "bstar",
+        "cnt",
+        "cnt_frags",
+        "cnt_items",
+        "cnt_kills",
+        "cnt_par",
+        "cnt_pause",
+        "cnt_secret",
+        "cnt_time",
+        "cnt_total_time",
+        "colon",
+        "dm_frags",
+        "dm_state",
+        "dm_totals",
+        "dofrags",
+        "entering",
+        "enterpic",
+        "epsd0animinfo",
+        "epsd1animinfo",
+        "epsd2animinfo",
+        "exitpic",
+        "finished",
+        "firstrefresh",
+        "frags",
+        "items",
+        "killers",
+        "kills",
+        "lnames",
+        "lnodes",
+        "me",
+        "ng_state",
+        "num",
+        "num_lnames",
+        "p",
+        "par",
+        "percent",
+        "plrs",
+        "secret",
+        "snl_pointeron",
+        "sp_secret",
+        "sp_state",
+        "splat",
+        "star",
+        "state",
+        "sucks",
+        "total",
+        "victims",
+        "wbs",
+        "wi_inited",
+        "wi_overlay",
+        "wiminus",
+        "witime",
+        "yah"
+      ],
+      "locals": []
+    },
+    "wi_interlvl.c": {
+      "sha256": "81773c8f585bd28d1fcc929f2fcbd75982b71743c9bc1f33f9780eb44628f821",
+      "globals": [],
+      "locals": []
+    },
+    "ws_stuff.c": {
+      "sha256": "04665dd209cbaafc60b82bf2eede4231b72360386853e83b2a57ecc759b2136a",
+      "globals": [
+        "shared_event",
+        "slots",
+        "state",
+        "weapon_slots_1_1",
+        "weapon_slots_1_2",
+        "weapon_slots_1_3",
+        "weapon_slots_2_1",
+        "weapon_slots_2_2",
+        "weapon_slots_2_3",
+        "weapon_slots_3_1",
+        "weapon_slots_3_2",
+        "weapon_slots_3_3",
+        "weapon_slots_4_1",
+        "weapon_slots_4_2",
+        "weapon_slots_4_3",
+        "weapon_slots_activation",
+        "weapon_slots_selection"
+      ],
+      "locals": []
+    },
+    "z_zone.c": {
+      "sha256": "05e8f4e808237e96af5cda5121bbe15d570b5486245b557c374cbf5fdababee8",
+      "globals": [
+        "blockbytag"
+      ],
+      "locals": []
+    },
+    "opl.c": {
+      "sha256": "1bfdd5d847e1b9e781ed67ef91946f43e3115ae4cdb46543068d6465663d3087",
+      "globals": [
+        "driver",
+        "drivers"
+      ],
+      "locals": []
+    },
+    "opl_queue.c": {
+      "sha256": "6bad487968bec7cd66732cc3751071e57c228a558496c2c0d5d23221b3534664",
+      "globals": [],
+      "locals": []
+    },
+    "opl_emu.c": {
+      "sha256": "30bc6194ef50ab19aad6c5f3df1c1cb50fcddd2b5a8905de81f4a36f8004eb1a",
+      "globals": [
+        "callback_queue",
+        "current_time",
+        "mixing_channels",
+        "opl_chip_keys",
+        "opl_chip_timeouts",
+        "opl_chips",
+        "opl_emu_driver",
+        "opl_opl3mode",
+        "opl_paused",
+        "pause_offset",
+        "register_num",
+        "timer1",
+        "timer2"
+      ],
+      "locals": []
+    },
+    "opl3.c": {
+      "sha256": "d37ec0095dcf2d9b10d83100277f0f33e3b1fc8b41d74ad07e7a88e948fa5fa5",
+      "globals": [],
+      "locals": []
+    },
+    "base64.c": {
+      "sha256": "fff16922549f1144b61fb04f3d8929b5d6b8a09c7bd063cd6b0a35888a2de88f",
+      "globals": [],
+      "locals": []
+    },
+    "md5.c": {
+      "sha256": "0eaadc16b84d0be0fccd8fe26abd4eea3d1988e9a1cac8eab360d5dc7c819caa",
+      "globals": [],
+      "locals": []
+    },
+    "sha1.c": {
+      "sha256": "1c36fc3af757e259d5140bec87856381fb01d7248cee1c46438f33e92a6fec5b",
+      "globals": [],
+      "locals": []
+    },
+    "spng.c": {
+      "sha256": "59243c1ca05956f124c7debef763b707378b52e4dbfeaf17e6192917dd8c8dc2",
+      "globals": [],
+      "locals": []
+    },
+    "yyjson.c": {
+      "sha256": "ac2e9bbb2e2d9149d90878d40506a1d624fa0b33c979a11b61075c54782c6d6a",
+      "globals": [],
+      "locals": []
+    },
+    "i_timer.c": {
+      "sha256": "d6160bc2f78bf582da004efeeb99f703eff73ab0cdd3626a69f0273afd14868e",
+      "globals": [
+        "I_GetFracTime",
+        "I_GetTime",
+        "basecounter",
+        "basecounter_scaled",
+        "basefreq",
+        "fasttic",
+        "time_scale"
+      ],
+      "locals": []
+    },
+    "am_map.c": {
+      "sha256": "3f25fdc3cb51dfb5fca288fd1936116f18d9556dcdfcd98f81861123480ed9ac",
+      "globals": [
+        "AM_drawFline",
+        "am_refresh_background",
+        "amdef",
+        "automap_grid",
+        "automapactive",
+        "automapfirststart",
+        "automapoverlay",
+        "automaprotate",
+        "automapsquareaspect",
+        "buttons_state",
+        "cur_mapcolor_back",
+        "cur_mapcolor_bdor",
+        "cur_mapcolor_bkey",
+        "cur_mapcolor_cchg",
+        "cur_mapcolor_clsd",
+        "cur_mapcolor_enemy",
+        "cur_mapcolor_exit",
+        "cur_mapcolor_fchg",
+        "cur_mapcolor_flat",
+        "cur_mapcolor_frnd",
+        "cur_mapcolor_grid",
+        "cur_mapcolor_hair",
+        "cur_mapcolor_item",
+        "cur_mapcolor_plyr",
+        "cur_mapcolor_rdor",
+        "cur_mapcolor_revsecr",
+        "cur_mapcolor_rkey",
+        "cur_mapcolor_secr",
+        "cur_mapcolor_sngl",
+        "cur_mapcolor_sprt",
+        "cur_mapcolor_tele",
+        "cur_mapcolor_unsn",
+        "cur_mapcolor_wall",
+        "cur_mapcolor_ydor",
+        "cur_mapcolor_ykey",
+        "ddt_cheating",
+        "door_color_B",
+        "door_color_R",
+        "door_color_Y",
+        "door_color_misc",
+        "f_h",
+        "f_paninc",
+        "f_w",
+        "f_x",
+        "f_y",
+        "followplayer",
+        "ftom_zoommul",
+        "full_max_scale_mtof",
+        "full_min_scale_mtof",
+        "full_scale_ftom",
+        "full_scale_mtof",
+        "key_color_B",
+        "key_color_R",
+        "key_color_Y",
+        "lines_1S",
+        "m_h",
+        "m_paninc",
+        "m_w",
+        "m_x",
+        "m_x2",
+        "m_y",
+        "m_y2",
+        "m_zoomin_kbd",
+        "m_zoomin_mouse",
+        "m_zoomout_kbd",
+        "m_zoomout_mouse",
+        "map_keyed_door",
+        "map_line_thickness",
+        "map_point_coord",
+        "map_secret_after",
+        "map_smooth_lines",
+        "mapangle",
+        "mapcenter",
+        "mapcolor_back",
+        "mapcolor_bdor",
+        "mapcolor_bkey",
+        "mapcolor_cchg",
+        "mapcolor_clsd",
+        "mapcolor_enemy",
+        "mapcolor_exit",
+        "mapcolor_fchg",
+        "mapcolor_flat",
+        "mapcolor_frnd",
+        "mapcolor_grid",
+        "mapcolor_hair",
+        "mapcolor_item",
+        "mapcolor_plyr",
+        "mapcolor_preset",
+        "mapcolor_rdor",
+        "mapcolor_revsecr",
+        "mapcolor_rkey",
+        "mapcolor_secr",
+        "mapcolor_sngl",
+        "mapcolor_sprt",
+        "mapcolor_tele",
+        "mapcolor_unsn",
+        "mapcolor_wall",
+        "mapcolor_ydor",
+        "mapcolor_ykey",
+        "mapcolors",
+        "marknums",
+        "markpointnum",
+        "markpointnum_max",
+        "markpoints",
+        "max_h",
+        "max_scale_mtof",
+        "max_w",
+        "max_x",
+        "max_y",
+        "min_scale_mtof",
+        "min_x",
+        "min_y",
+        "minimap",
+        "mousewheelzoom",
+        "mtof_zoommul",
+        "old_m_h",
+        "old_m_w",
+        "old_m_x",
+        "old_m_y",
+        "plr",
+        "prev_m_x",
+        "prev_m_y",
+        "scale_ftom",
+        "scale_mtof",
+        "stopped",
+        "thickness"
+      ],
+      "locals": [
+        [
+          19178,
+          [
+            "last_full_automap"
+          ]
+        ],
+        [
+          20026,
+          [
+            "lastlevel",
+            "lastepisode"
+          ]
+        ],
+        [
+          21615,
+          [
+            "bigstate"
+          ]
+        ],
+        [
+          41137,
+          [
+            "fl"
+          ]
+        ],
+        [
+          50750,
+          [
+            "l"
+          ]
+        ],
+        [
+          65560,
+          [
+            "first_time"
+          ]
+        ]
+      ]
+    },
+    "d_loop.c": {
+      "sha256": "79288ba8a46c6733e2c56dadf7e5a52910f40bf6dcb288e38094f5a7116e11a9",
+      "globals": [
+        "frameon",
+        "frameskip",
+        "lasttime",
+        "local_playeringame",
+        "localplayer",
+        "maketic",
+        "new_sync",
+        "offsetms",
+        "oldnettics",
+        "player_class",
+        "recvtic",
+        "skiptics",
+        "ticdata",
+        "ticdup"
+      ],
+      "locals": [
+        [
+          15065,
+          [
+            "oldentertics"
+          ]
+        ]
+      ]
+    },
+    "doomstat.c": {
+      "sha256": "df40706578596b44740e860f1cddb05f46734d3deb6d72c4975d31acb90dc75b",
+      "globals": [
+        "allow_pushers",
+        "beta_emulation",
+        "center_weapon",
+        "classic_bfg",
+        "comp",
+        "compatibility",
+        "default_allow_pushers",
+        "default_classic_bfg",
+        "default_comp",
+        "default_compatibility",
+        "default_distfriend",
+        "default_dog_jumping",
+        "default_dogs",
+        "default_help_friends",
+        "default_monkeys",
+        "default_monster_avoid_hazards",
+        "default_monster_backing",
+        "default_monster_friction",
+        "default_monster_infighting",
+        "default_monsters_remember",
+        "default_player_bobbing",
+        "default_variable_friction",
+        "default_weapon_recoil",
+        "demo_version",
+        "distfriend",
+        "dog_jumping",
+        "dogs",
+        "gamemission",
+        "gamemode",
+        "gameversion",
+        "gameversions",
+        "help_friends",
+        "helper_type",
+        "hide_weapon",
+        "modifiedgame",
+        "monkeys",
+        "monster_avoid_hazards",
+        "monster_backing",
+        "monster_friction",
+        "monster_infighting",
+        "monsters_remember",
+        "overflow",
+        "pitched_sounds",
+        "player_bobbing",
+        "pwad_help2",
+        "translucency",
+        "variable_friction",
+        "view_bobbing_pct",
+        "weapon_bobbing_pct",
+        "weapon_recoil"
+      ],
+      "locals": [
+        [
+          4283,
+          [
+            "name"
+          ]
+        ]
+      ]
+    },
+    "decl_sounds.c": {
+      "sha256": "fd4435b63da46378d67f6651a94e1e8fd97e3c06344a01dacddaa7784a9d5076",
+      "globals": [
+        "ambient_data",
+        "ambient_sounds",
+        "decl_ambient_props",
+        "random_sounds",
+        "sounds"
+      ],
+      "locals": [
+        [
+          7437,
+          [
+            "keywords"
+          ]
+        ]
+      ]
+    },
+    "deh_main.c": {
+      "sha256": "7d16be4f27655f64ac489b2c981a29046dbf84a718de9e06c2a98ee4b24edf37",
+      "globals": [
+        "deh_apply_cheats",
+        "deh_filenames",
+        "deh_initialized",
+        "deh_section_types",
+        "deh_signatures",
+        "post_process"
+      ],
+      "locals": [
+        [
+          1975,
+          [
+            "i"
+          ]
+        ]
+      ]
+    },
+    "f_finale.c": {
+      "sha256": "227c3527cdd342d86e67e1386461623c52e223deeca2403555784350546b2455",
+      "globals": [
+        "castattacking",
+        "castdeath",
+        "castframes",
+        "castnum",
+        "castonmelee",
+        "castorder",
+        "caststate",
+        "casttics",
+        "ef_callee_count",
+        "ef_callee_point",
+        "ef_current_alive",
+        "ef_current_callee",
+        "ef_current_duration",
+        "ef_current_frame",
+        "endfinale",
+        "finalecount",
+        "finaleflat",
+        "finalestage",
+        "finaletext",
+        "mapinfo_finale",
+        "midstage"
+      ],
+      "locals": [
+        [
+          34808,
+          [
+            "laststage"
+          ]
+        ]
+      ]
+    },
+    "f_wipe.c": {
+      "sha256": "a0528be3929e363e151c36af43ae639b63c2cf33afabd451959b61b0f9120891",
+      "globals": [
+        "curry",
+        "fade_tick",
+        "lastrndval",
+        "prevy",
+        "rndbits_y",
+        "rndmask",
+        "wipe_columns",
+        "wipe_scr",
+        "wipe_scr_end",
+        "wipe_scr_start",
+        "wipes",
+        "ybuff1",
+        "ybuff2"
+      ],
+      "locals": [
+        [
+          11340,
+          [
+            "go"
+          ]
+        ]
+      ]
+    },
+    "g_compatibility.c": {
+      "sha256": "0f31ffa384ffc2bb64b155919829f0b8aff63b5bdcdd4da897256e1dae97de00",
+      "globals": [
+        "comp_database",
+        "comp_names"
+      ],
+      "locals": [
+        [
+          5212,
+          [
+            "old_demo_version"
+          ]
+        ],
+        [
+          5245,
+          [
+            "restore_comp"
+          ]
+        ],
+        [
+          5282,
+          [
+            "old_comp"
+          ]
+        ]
+      ]
+    },
+    "g_game.c": {
+      "sha256": "098dccf3e83a21c55dd4febdd7e6d1763e257c87c6a2e2afe2781d0db362f08b",
+      "globals": [
+        "UpdateLocalView",
+        "autorun",
+        "autosave",
+        "autostrafe50",
+        "axis_turn_tic",
+        "basecmd",
+        "bodyquesize",
+        "bodyqueslot",
+        "boom_basetic",
+        "clean_screenshot",
+        "command_loadgame",
+        "consistancy",
+        "consoleplayer",
+        "critical",
+        "d_episode",
+        "d_map",
+        "d_skill",
+        "dclick",
+        "dclick_use",
+        "deathmatch",
+        "default_bodyquesize",
+        "default_complevel",
+        "default_sidemove",
+        "default_skill",
+        "defdemoname",
+        "demo_p",
+        "demobuffer",
+        "demoname",
+        "demoname_orig",
+        "demoplayback",
+        "demorecording",
+        "demover_complevel",
+        "displayplayer",
+        "doom_weapon_toggles",
+        "fake_longtics",
+        "fastdemo",
+        "force_complevel",
+        "forced_loadgame",
+        "forwardmove",
+        "freelook",
+        "gameaction",
+        "gameepisode",
+        "gamekeydown",
+        "gamemap",
+        "gamemapinfo",
+        "gameskill",
+        "gamestate",
+        "gametic",
+        "gyro_turn_tic",
+        "haswolflevels",
+        "joybuttons",
+        "key_escape",
+        "key_help",
+        "last_cmd",
+        "levelstarttic",
+        "longtics",
+        "lowres_turn",
+        "max_kill_requirement",
+        "maxdemosize",
+        "mousebuttons",
+        "mousex",
+        "mousex_tic",
+        "mousey",
+        "named_complevel_id",
+        "netdemo",
+        "netgame",
+        "noblit",
+        "nodrawers",
+        "novert",
+        "paused",
+        "playback_levelstarttic",
+        "playback_skiptics",
+        "playback_tic",
+        "playback_totaltics",
+        "playeringame",
+        "players",
+        "precache",
+        "quickstart_cache_tics",
+        "quickstart_queued",
+        "realtic_clock_rate",
+        "reset_inventory",
+        "respawnmonsters",
+        "save_autosave",
+        "savebuffer",
+        "savedescription",
+        "saveg_versions",
+        "savegamesize",
+        "savegameslot",
+        "savename",
+        "secretexit",
+        "sendjoin",
+        "sendpause",
+        "sendreload",
+        "sendsave",
+        "shorttics",
+        "sidemove",
+        "singledemo",
+        "solonet",
+        "starttime",
+        "strictmode",
+        "timelimit",
+        "timingdemo",
+        "totalitems",
+        "totalkills",
+        "totalleveltimes",
+        "totalsecret",
+        "true_basetic",
+        "turnheld",
+        "umapinfo_partimes",
+        "usergame",
+        "viewactive",
+        "wminfo"
+      ],
+      "locals": [
+        [
+          8291,
+          [
+            "nodrawers_old"
+          ]
+        ],
+        [
+          8340,
+          [
+            "nomusicparm_old",
+            "nosfxparm_old"
+          ]
+        ],
+        [
+          8832,
+          [
+            "warp"
+          ]
+        ],
+        [
+          11247,
+          [
+            "axis_turn_cache"
+          ]
+        ],
+        [
+          11288,
+          [
+            "gyro_turn_cache"
+          ]
+        ],
+        [
+          11326,
+          [
+            "mousex_cache"
+          ]
+        ],
+        [
+          11367,
+          [
+            "angleturn_cache"
+          ]
+        ],
+        [
+          11387,
+          [
+            "index"
+          ]
+        ],
+        [
+          17268,
+          [
+            "done_autoswitch"
+          ]
+        ],
+        [
+          27850,
+          [
+            "first"
+          ]
+        ],
+        [
+          32351,
+          [
+            "enable_mouse"
+          ]
+        ],
+        [
+          32392,
+          [
+            "enable_gamepad"
+          ]
+        ],
+        [
+          32429,
+          [
+            "first_event"
+          ]
+        ],
+        [
+          42960,
+          [
+            "firsttime"
+          ]
+        ],
+        [
+          90895,
+          [
+            "bodyque"
+          ]
+        ],
+        [
+          90926,
+          [
+            "queuesize"
+          ]
+        ],
+        [
+          110619,
+          [
+            "fast"
+          ]
+        ],
+        [
+          114066,
+          [
+            "j"
+          ]
+        ],
+        [
+          137393,
+          [
+            "string"
+          ]
+        ],
+        [
+          138954,
+          [
+            "msg"
+          ]
+        ]
+      ]
+    },
+    "hu_coordinates.c": {
+      "sha256": "308e3b900769f23e3b3934cc41b2c704d7908d5369e2beeb3cebeb8d39a01a48",
+      "globals": [],
+      "locals": [
+        [
+          4568,
+          [
+            "line1"
+          ]
+        ],
+        [
+          4721,
+          [
+            "line2"
+          ]
+        ],
+        [
+          4874,
+          [
+            "line3"
+          ]
+        ],
+        [
+          5027,
+          [
+            "line4"
+          ]
+        ],
+        [
+          5345,
+          [
+            "line5"
+          ]
+        ],
+        [
+          5520,
+          [
+            "line6"
+          ]
+        ],
+        [
+          5694,
+          [
+            "line7"
+          ]
+        ],
+        [
+          6027,
+          [
+            "line8"
+          ]
+        ],
+        [
+          6202,
+          [
+            "line9"
+          ]
+        ],
+        [
+          6385,
+          [
+            "line10"
+          ]
+        ]
+      ]
+    },
+    "i_gamepad.c": {
+      "sha256": "a6fe7b5c77225c2afec8dff979b8e480e44547cf2e294d6e5ac0b433637eb6c4",
+      "globals": [
+        "CalcCamera",
+        "CalcMovement",
+        "axes",
+        "axes_data",
+        "camera",
+        "gamepad_cancel",
+        "gamepad_confirm",
+        "joy_camera_curve",
+        "joy_camera_deadzone_type",
+        "joy_camera_inner_deadzone",
+        "joy_camera_outer_deadzone",
+        "joy_confirm",
+        "joy_device",
+        "joy_enable",
+        "joy_forward_sensitivity",
+        "joy_invert_forward",
+        "joy_invert_look",
+        "joy_invert_strafe",
+        "joy_invert_turn",
+        "joy_look_speed",
+        "joy_movement_curve",
+        "joy_movement_deadzone_type",
+        "joy_movement_inner_deadzone",
+        "joy_movement_outer_deadzone",
+        "joy_movement_type",
+        "joy_outer_look_speed",
+        "joy_outer_ramp_time",
+        "joy_outer_turn_speed",
+        "joy_platform",
+        "joy_stick_layout",
+        "joy_strafe_sensitivity",
+        "joy_trigger_deadzone",
+        "joy_turn_speed",
+        "last_joy_device",
+        "movement",
+        "raw",
+        "raw_ptr",
+        "trigger_threshold"
+      ],
+      "locals": [
+        [
+          4525,
+          [
+            "start_time"
+          ]
+        ],
+        [
+          4567,
+          [
+            "elapsed_time"
+          ]
+        ]
+      ]
+    },
+    "i_oplmusic.c": {
+      "sha256": "7ed9c7a1c1ed62c3a58ee7bc3f5613d75eb4214f34a90a17b47ddec3cb767061",
+      "globals": [
+        "channels",
+        "current_music_volume",
+        "last_perc",
+        "last_perc_count",
+        "lump",
+        "main_instr_names",
+        "main_instrs",
+        "midifile",
+        "music_format",
+        "music_initialized",
+        "num_opl_chips",
+        "num_opl_voices",
+        "num_tracks",
+        "opl_drv_ver",
+        "opl_io_port",
+        "opl_opl3mode",
+        "opl_stereo_correct",
+        "percussion_instrs",
+        "percussion_names",
+        "running_tracks",
+        "snd_dmxoption",
+        "song_looping",
+        "start_music_volume",
+        "stream_opl_module",
+        "ticks_per_beat",
+        "tracks",
+        "us_per_beat",
+        "voice_alloced_list",
+        "voice_alloced_num",
+        "voice_free_list",
+        "voice_free_num",
+        "voices"
+      ],
+      "locals": [
+        [
+          45096,
+          [
+            "devices"
+          ]
+        ]
+      ]
+    },
+    "i_region.c": {
+      "sha256": "78155863b1ad33881ac459261ebc183d78c655ca79f24b20bfd8452e488342fc",
+      "globals": [],
+      "locals": [
+        [
+          873,
+          [
+            "page_size"
+          ]
+        ]
+      ]
+    },
+    "i_sound.c": {
+      "sha256": "7d2b0f5df68b3ba85e0ae0814f86c658869c707140db20ae5b6957103ea0c97b",
+      "globals": [
+        "active_module",
+        "channelinfo",
+        "midi_module",
+        "midi_player_menu",
+        "midi_player_string",
+        "music_modules",
+        "snd_ambient",
+        "snd_channels_per_sfx",
+        "snd_init",
+        "snd_limiter",
+        "snd_module",
+        "snd_volume_per_sfx",
+        "sound_module",
+        "sound_modules"
+      ],
+      "locals": [
+        [
+          15356,
+          [
+            "devices"
+          ]
+        ]
+      ]
+    },
+    "m_cheat.c": {
+      "sha256": "9d2c956668b70c4f2d5657e6f34cc11c2bccf7dbace99320b073d4c1b7603ef6",
+      "globals": [
+        "cheats_table",
+        "frozen_mode"
+      ],
+      "locals": [
+        [
+          27370,
+          [
+            "last_secret"
+          ]
+        ],
+        [
+          28910,
+          [
+            "last_count"
+          ]
+        ],
+        [
+          28940,
+          [
+            "last_mobj"
+          ]
+        ],
+        [
+          29105,
+          [
+            "last_count"
+          ]
+        ],
+        [
+          29135,
+          [
+            "last_mobj"
+          ]
+        ],
+        [
+          33183,
+          [
+            "init"
+          ]
+        ],
+        [
+          34887,
+          [
+            "argbuf"
+          ]
+        ]
+      ]
+    },
+    "m_config.c": {
+      "sha256": "a20d11710df4e0f57d47f10d1dd82b72ac78018cf7062ac5bc2b159625988c77",
+      "globals": [
+        "config_help",
+        "defaultfile",
+        "defaults",
+        "defaults_loaded"
+      ],
+      "locals": [
+        [
+          4905,
+          [
+            "hash_init"
+          ]
+        ]
+      ]
+    },
+    "mn_menu.c": {
+      "sha256": "8cdbb4251577f38c5387c6daaa972978427c86d3f6cf3b5d6cb98ba1103dcc3a",
+      "globals": [
+        "AutoMapDef",
+        "CompatDef",
+        "CustomSkillDef",
+        "EnemyDef",
+        "EpiCustom",
+        "EpiDef",
+        "EpiMenuEpi",
+        "EpiMenuMap",
+        "EpisodeMenu",
+        "EqualizerDef",
+        "ExtHelpDef",
+        "ExtHelpMenu",
+        "GeneralDef",
+        "Generic_Setup",
+        "GyroDef",
+        "KeybndDef",
+        "LoadAutoSaveDef",
+        "LoadAutoSaveMenu",
+        "LoadDef",
+        "LoadMenu",
+        "MainDef",
+        "MainMenu",
+        "MidiDef",
+        "NewDef",
+        "NewGameMenu",
+        "PadAdvDef",
+        "QuickLoadDef",
+        "ReadDef1",
+        "ReadDef2",
+        "ReadMenu1",
+        "ReadMenu2",
+        "SaveDef",
+        "SaveMenu",
+        "SetupDef",
+        "SetupMenu",
+        "SfxDef",
+        "SoundDef",
+        "SoundMenu",
+        "StatusHUDDef",
+        "WeaponDef",
+        "autosave_e",
+        "bigfont_priority",
+        "currentMenu",
+        "customskill_active",
+        "delete_verify",
+        "epiChoice",
+        "episodes_e",
+        "extended_help_count",
+        "extended_help_index",
+        "generic_setup_e",
+        "help_e",
+        "help_input",
+        "highlight_item",
+        "itemOn",
+        "load_e",
+        "loadsave_title_y",
+        "main_e",
+        "maxscreenblocks",
+        "menu_backdrop",
+        "menu_input",
+        "menu_pause_demos",
+        "menuactive",
+        "messageLastMenuActive",
+        "messageNeedsInput",
+        "messageRoutine",
+        "messageString",
+        "messageToPrint",
+        "mouse_active_thermo",
+        "mouse_state_x",
+        "mouse_state_y",
+        "newgame_e",
+        "old_help_input",
+        "old_menu_input",
+        "options_active",
+        "quickSavePage",
+        "quickSaveSlot",
+        "quitsounds",
+        "quitsounds2",
+        "read_e",
+        "read_e2",
+        "saveCharIndex",
+        "saveOldString",
+        "saveSlot",
+        "saveStringEnter",
+        "savegamestrings",
+        "savepage",
+        "screenblocks",
+        "skullAnimCounter",
+        "skullName",
+        "snapshot_height",
+        "snapshot_width",
+        "sound_e",
+        "whichSkull"
+      ],
+      "locals": [
+        [
+          39115,
+          [
+            "endstring"
+          ]
+        ],
+        [
+          54686,
+          [
+            "setup_defs"
+          ]
+        ],
+        [
+          67413,
+          [
+            "fastdemo_timer"
+          ]
+        ],
+        [
+          71824,
+          [
+            "state"
+          ]
+        ],
+        [
+          74450,
+          [
+            "joywait"
+          ]
+        ],
+        [
+          74496,
+          [
+            "repeat"
+          ]
+        ]
+      ]
+    },
+    "mn_setup.c": {
+      "sha256": "42aff5274247ab89ce594abb2a9087689e430a37daaccd185fe742b018a6c430",
+      "globals": [
+        "DrawIndicator",
+        "active_thermo",
+        "auto_settings",
+        "auto_settings1",
+        "automap_keyed_door_strings",
+        "automap_preset_strings",
+        "automap_thickness_strings",
+        "block_input",
+        "bobbing_pct_strings",
+        "center_weapon_strings",
+        "comp_settings",
+        "comp_settings1",
+        "crosshair_target_strings",
+        "csmenu",
+        "csmenu_skill",
+        "current_menu",
+        "current_page",
+        "current_tabs",
+        "curve_strings",
+        "customskill_settings",
+        "customskill_settings1",
+        "death_use_action_strings",
+        "default_complevel_strings",
+        "default_reset",
+        "default_verify",
+        "endoom_strings",
+        "enem_settings",
+        "enem_settings1",
+        "eq_settings",
+        "eq_settings1",
+        "equalizer_preset_strings",
+        "equalizer_tabs",
+        "extra_music_strings",
+        "flick_snap_strings",
+        "free_look_strings",
+        "freelook_mode",
+        "fuzzmode_strings",
+        "gamma_strings",
+        "gather_buffer",
+        "gather_count",
+        "gen_settings",
+        "gen_settings1",
+        "gen_settings2",
+        "gen_settings3",
+        "gen_settings4",
+        "gen_settings5",
+        "gen_settings6",
+        "gen_tabs",
+        "gyro_action_strings",
+        "gyro_settings",
+        "gyro_settings1",
+        "gyro_space_strings",
+        "gyro_tabs",
+        "highlight_item",
+        "highlight_tab",
+        "hud_anchoring_strings",
+        "hudcolor_strings",
+        "invul_mode_strings",
+        "kerning",
+        "keys_settings",
+        "keys_settings1",
+        "keys_settings2",
+        "keys_settings3",
+        "keys_settings4",
+        "keys_settings5",
+        "keys_settings6",
+        "keys_tabs",
+        "layout_strings",
+        "menu_buffer",
+        "menu_help",
+        "midi_tabs",
+        "movement_type_strings",
+        "music_settings",
+        "music_settings1",
+        "overlay_strings",
+        "padadv_settings",
+        "padadv_settings1",
+        "padadv_tabs",
+        "palette_changes_strings",
+        "percent_strings",
+        "print_warning_about_changes",
+        "reset_button_name",
+        "resolution_scale",
+        "screen_wipe_strings",
+        "secretmessage_strings",
+        "selectstrings",
+        "set_item_on",
+        "set_keybnd_active",
+        "set_weapon_active",
+        "setup_active",
+        "setup_active_secondary",
+        "setup_cancel",
+        "setup_gather",
+        "setup_screen",
+        "setup_screens",
+        "setup_select",
+        "sfx_settings",
+        "sfx_settings1",
+        "sfx_tabs",
+        "show_adv_widgets_strings",
+        "show_widgets_strings",
+        "skill_strings",
+        "slot_labels",
+        "sound_module_strings",
+        "stat_settings",
+        "stat_settings1",
+        "stat_settings2",
+        "stat_settings3",
+        "stat_settings4",
+        "stat_tabs",
+        "stats_format_strings",
+        "warning_about_changes",
+        "weap_settings",
+        "weap_settings1",
+        "weap_settings2",
+        "weap_settings3",
+        "weap_tabs",
+        "weapon_slots_activation_strings",
+        "weapon_slots_selection_strings",
+        "widescreen_strings"
+      ],
+      "locals": [
+        [
+          46167,
+          [
+            "vanilla_doom_strings"
+          ]
+        ],
+        [
+          46359,
+          [
+            "vanilla_doom2_strings"
+          ]
+        ],
+        [
+          46522,
+          [
+            "full_doom2_strings"
+          ]
+        ],
+        [
+          79410,
+          [
+            "strings"
+          ]
+        ],
+        [
+          83828,
+          [
+            "strings"
+          ]
+        ],
+        [
+          84194,
+          [
+            "strings"
+          ]
+        ],
+        [
+          88433,
+          [
+            "strings"
+          ]
+        ],
+        [
+          88861,
+          [
+            "strings"
+          ]
+        ]
+      ]
+    },
+    "m_misc.c": {
+      "sha256": "f50bdbd5d435546d3c60e1eb270b90f9f705cb7767f78607eba609fec888a9e5",
+      "globals": [],
+      "locals": [
+        [
+          5468,
+          [
+            "home_dir"
+          ]
+        ],
+        [
+          6134,
+          [
+            "data_dir"
+          ]
+        ]
+      ]
+    },
+    "net_io.c": {
+      "sha256": "3601adc37adc69cab9deea69cf8982c0a2b0ebfcf53dd2a0fb1724a6594090a1",
+      "globals": [
+        "net_broadcast_addr"
+      ],
+      "locals": [
+        [
+          2613,
+          [
+            "buf"
+          ]
+        ]
+      ]
+    },
+    "p_enemy.c": {
+      "sha256": "c208374abce7a0bbb57d48fe880b02bd99ccc849e9227bd04122c53b3d41c387",
+      "globals": [
+        "brain",
+        "braintargets",
+        "corpsehit",
+        "current_actor",
+        "current_allaround",
+        "dropoff_deltax",
+        "dropoff_deltay",
+        "floorz",
+        "ghost_monsters",
+        "numbraintargets",
+        "numbraintargets_alloc",
+        "vileobj",
+        "viletryradius",
+        "viletryx",
+        "viletryy",
+        "xspeed",
+        "yspeed"
+      ],
+      "locals": [
+        [
+          74759,
+          [
+            "player"
+          ]
+        ]
+      ]
+    },
+    "p_map.c": {
+      "sha256": "c74d98f7e6bdd244b123ff61197487acd4ae53d514483800075ff05f57a28533",
+      "globals": [
+        "aim_flags_mask",
+        "aimslope",
+        "attackrange",
+        "bestslidefrac",
+        "bestslideline",
+        "blockline",
+        "bombdamage",
+        "bombdistance",
+        "bombsource",
+        "bombspot",
+        "bottomslope",
+        "ceilingline",
+        "crushchange",
+        "felldown",
+        "floatok",
+        "floorline",
+        "hangsolid",
+        "headsecnode",
+        "la_damage",
+        "linetarget",
+        "ls_x",
+        "ls_y",
+        "msecnodes_arena",
+        "nofit",
+        "numspechit",
+        "pe_x",
+        "pe_y",
+        "secondslidefrac",
+        "secondslideline",
+        "sector_list",
+        "shootthing",
+        "shootz",
+        "sightzstart",
+        "slidemo",
+        "spechit",
+        "spechit_max",
+        "telefrag",
+        "tmbbox",
+        "tmceilingz",
+        "tmdropoffz",
+        "tmflags",
+        "tmfloorz",
+        "tmthing",
+        "tmunstuck",
+        "tmx",
+        "tmxmove",
+        "tmy",
+        "tmymove",
+        "topslope",
+        "usething"
+      ],
+      "locals": [
+        [
+          70536,
+          [
+            "baseaddr"
+          ]
+        ]
+      ]
+    },
+    "p_mobj.c": {
+      "sha256": "d520dfa08944dad3aa763b6d59bb3e90e0edc948a482d560f550b3bde82aaae1",
+      "globals": [
+        "autoaim",
+        "default_direct_vertical_aiming",
+        "default_max_pitch_angle",
+        "direct_vertical_aiming",
+        "iquehead",
+        "iquetail",
+        "itemrespawnque",
+        "itemrespawntime",
+        "max_pitch_angle",
+        "tidhash"
+      ],
+      "locals": [
+        [
+          2492,
+          [
+            "recursion"
+          ]
+        ],
+        [
+          27504,
+          [
+            "dummy_mobj"
+          ]
+        ],
+        [
+          27873,
+          [
+            "hash"
+          ]
+        ]
+      ]
+    },
+    "p_pspr.c": {
+      "sha256": "99aa48e222d892fa4a27afa6ba27bc0cd2988ff606cf9c42ff3e98800de91165",
+      "globals": [
+        "boom_weapon_state_injection",
+        "bulletslope",
+        "lastshottic",
+        "psp_interp",
+        "recoil_values",
+        "saved_angle",
+        "weapon_preferences",
+        "weapon_recoilpitch"
+      ],
+      "locals": [
+        [
+          30198,
+          [
+            "last_sy"
+          ]
+        ],
+        [
+          31382,
+          [
+            "oldsprite"
+          ]
+        ],
+        [
+          31410,
+          [
+            "oldframe"
+          ]
+        ],
+        [
+          31453,
+          [
+            "oldsxf",
+            "oldsyf"
+          ]
+        ]
+      ]
+    },
+    "p_setup.c": {
+      "sha256": "f46fa638a3ee998252cc3146479ae21c323d046eb5aefcc669565ad75a0ca865",
+      "globals": [
+        "blocklinks",
+        "blocklinks_size",
+        "blockmap",
+        "blockmaplump",
+        "bmapheight",
+        "bmaporgx",
+        "bmaporgy",
+        "bmapwidth",
+        "deathmatch_p",
+        "deathmatchstarts",
+        "lines",
+        "map",
+        "nodes",
+        "num_deathmatchstarts",
+        "numlines",
+        "numnodes",
+        "numsectors",
+        "numsegs",
+        "numsides",
+        "numsubsectors",
+        "numvertexes",
+        "playback_nextlevel",
+        "playerstarts",
+        "rejectmatrix",
+        "sectors",
+        "seenstate_tab",
+        "segs",
+        "sides",
+        "skipblstart",
+        "sslines",
+        "sslines_indexes",
+        "subsectors",
+        "vertexes",
+        "world_arena"
+      ],
+      "locals": [
+        [
+          5142,
+          [
+            "null_sector_is_initialized"
+          ]
+        ],
+        [
+          5173,
+          [
+            "null_sector"
+          ]
+        ]
+      ]
+    },
+    "p_spec.c": {
+      "sha256": "8ee82467958b9dd724f7d39c467160670c3fcbedd300940736daaee182d3a8c1",
+      "globals": [
+        "anims",
+        "disable_nuke",
+        "lastanim",
+        "levelFragLimit",
+        "levelFragLimitCount",
+        "levelTimeCount",
+        "levelTimer",
+        "maxanims",
+        "tmpusher"
+      ],
+      "locals": [
+        [
+          71039,
+          [
+            "str_count"
+          ]
+        ]
+      ]
+    },
+    "r_bsp.c": {
+      "sha256": "34a9ad7acc460d125d5754623a683076ebe9079a32e4f465ff3e85c7412f22ec",
+      "globals": [
+        "backsector",
+        "curline",
+        "doorclosed",
+        "drawsegs",
+        "ds_p",
+        "frontsector",
+        "linedef",
+        "maxdrawsegs",
+        "sidedef",
+        "solidcol"
+      ],
+      "locals": [
+        [
+          13415,
+          [
+            "tempsec"
+          ]
+        ]
+      ]
+    },
+    "r_data.c": {
+      "sha256": "20aee117cb72e74cf716f44048087ad9399ab66d2a50879e4d3325fdddb2f6cc",
+      "globals": [
+        "first_tx",
+        "firstcolormaplump",
+        "firstflat",
+        "firstspritelump",
+        "flatterrain",
+        "flattranslation",
+        "invul_mode",
+        "invul_orig",
+        "last_tx",
+        "lastcolormaplump",
+        "lastflat",
+        "lastspritelump",
+        "num_tx",
+        "numflats",
+        "numspritelumps",
+        "numtextures",
+        "spriteoffset",
+        "spritetopoffset",
+        "spritewidth",
+        "texturebrightmap",
+        "texturecolumnlump",
+        "texturecolumnofs",
+        "texturecolumnofs2",
+        "texturecomposite",
+        "texturecomposite2",
+        "texturecompositesize",
+        "textureheight",
+        "textures",
+        "texturetranslation",
+        "texturewidth",
+        "texturewidthmask"
+      ],
+      "locals": [
+        [
+          30348,
+          [
+            "buffer"
+          ]
+        ]
+      ]
+    },
+    "r_segs.c": {
+      "sha256": "cd459c69c2069ee4e4d3bb1c524cf03f80240d88c557ff292003ed02a0b9c1f9",
+      "globals": [
+        "bottomfrac",
+        "bottomstep",
+        "bottomtexture",
+        "didsolidcol",
+        "heightbits",
+        "heightunit",
+        "invhgtbits",
+        "markceiling",
+        "markfloor",
+        "maskedtexture",
+        "maskedtexturecol",
+        "max_rwscale",
+        "midtexture",
+        "pixhigh",
+        "pixhighstep",
+        "pixlow",
+        "pixlowstep",
+        "rw_angle1",
+        "rw_bottomtexturemid",
+        "rw_centerangle",
+        "rw_distance",
+        "rw_lightlevel",
+        "rw_midtexturemid",
+        "rw_normalangle",
+        "rw_offset",
+        "rw_scale",
+        "rw_scalestep",
+        "rw_stopx",
+        "rw_toptexturemid",
+        "rw_x",
+        "segtextured",
+        "topfrac",
+        "topstep",
+        "toptexture",
+        "worldbottom",
+        "worldhigh",
+        "worldlow",
+        "worldtop"
+      ],
+      "locals": [
+        [
+          11497,
+          [
+            "lastheight"
+          ]
+        ]
+      ]
+    },
+    "r_swirl.c": {
+      "sha256": "738e4378cae69ea4457bec9dd93d59fe87d814124ee44cb5a795da0e11b316ab",
+      "globals": [
+        "offset",
+        "offsets",
+        "r_swirl"
+      ],
+      "locals": [
+        [
+          2484,
+          [
+            "swirltic"
+          ]
+        ],
+        [
+          2515,
+          [
+            "swirlflat"
+          ]
+        ],
+        [
+          2556,
+          [
+            "distortedflat"
+          ]
+        ]
+      ]
+    },
+    "r_voxel.c": {
+      "sha256": "69b11a934a9499bc3f5c0d5c9082554da7fd292968d1b335985e1d8dd685641b",
+      "globals": [
+        "all_voxels",
+        "default_voxels_rendering",
+        "num_visvoxels",
+        "visvoxels",
+        "voxels_found",
+        "voxels_rendering",
+        "vx_eye_x",
+        "vx_eye_y",
+        "vx_max_dist",
+        "vx_rotate_items"
+      ],
+      "locals": [
+        [
+          6862,
+          [
+            "size"
+          ]
+        ],
+        [
+          7988,
+          [
+            "oldgametic"
+          ]
+        ],
+        [
+          8024,
+          [
+            "oldangle",
+            "newangle"
+          ]
+        ],
+        [
+          22778,
+          [
+            "new_colormap"
+          ]
+        ],
+        [
+          23048,
+          [
+            "prev_trans",
+            "prev_map"
+          ]
+        ],
+        [
+          23152,
+          [
+            "new_colormap"
+          ]
+        ]
+      ]
+    },
+    "st_stuff.c": {
+      "sha256": "895ff3700e982145de74b5f4e5241e3735089f9f7d0a7952274c63cc3526e368",
+      "globals": [
+        "ammo_red",
+        "ammo_yellow",
+        "armor_green",
+        "armor_red",
+        "armor_yellow",
+        "facebackpatches",
+        "facepatches",
+        "have_xdthfaces",
+        "health_green",
+        "health_red",
+        "health_yellow",
+        "hu_font",
+        "hud_anchoring",
+        "hud_armor_type",
+        "minimap",
+        "palette_changes",
+        "sbardef",
+        "st_backing_screen",
+        "st_cmd_x",
+        "st_cmd_y",
+        "st_height",
+        "st_height_screenblocks10",
+        "st_refresh_background",
+        "st_solidbackground",
+        "st_wide_shift",
+        "statusbar",
+        "stcfnt",
+        "sts_colored_numbers",
+        "sts_pct_always_gray",
+        "weapon_carousel"
+      ],
+      "locals": [
+        [
+          25146,
+          [
+            "lasthealthcalc"
+          ]
+        ],
+        [
+          25177,
+          [
+            "oldhealth"
+          ]
+        ],
+        [
+          25873,
+          [
+            "priority"
+          ]
+        ],
+        [
+          25909,
+          [
+            "lastattackdown"
+          ]
+        ],
+        [
+          39875,
+          [
+            "oldbarindex"
+          ]
+        ],
+        [
+          61858,
+          [
+            "oldpalette"
+          ]
+        ],
+        [
+          65490,
+          [
+            "old_st_size"
+          ]
+        ],
+        [
+          65998,
+          [
+            "strings"
+          ]
+        ]
+      ]
+    },
+    "st_widgets.c": {
+      "sha256": "6cb1712038b2732e47d8fc68537a4f72abf63822739616bbe4e31eec09f5015f",
+      "globals": [
+        "announce_duration_left",
+        "announce_string",
+        "author_string",
+        "chat_macros",
+        "chat_on",
+        "chatchars",
+        "chatline",
+        "head",
+        "hud_level_stats",
+        "hud_level_time",
+        "hud_map_announce",
+        "hud_player_coords",
+        "hud_secret_message",
+        "hud_stats_format",
+        "hud_time_use",
+        "hud_widget_font",
+        "hudcolor_titl",
+        "hudcolor_xyco",
+        "killchar",
+        "lines",
+        "message_centered",
+        "message_colorized",
+        "message_duration_left",
+        "message_review",
+        "message_string",
+        "show_messages",
+        "show_pickup_messages",
+        "show_toggle_messages",
+        "speedometer",
+        "st_cmd_elem",
+        "st_msg_elem",
+        "st_time_elem",
+        "statscolor",
+        "tail",
+        "title_string"
+      ],
+      "locals": [
+        [
+          2435,
+          [
+            "string"
+          ]
+        ],
+        [
+          2472,
+          [
+            "overwrite"
+          ]
+        ],
+        [
+          2516,
+          [
+            "messages_enabled"
+          ]
+        ],
+        [
+          3786,
+          [
+            "state"
+          ]
+        ],
+        [
+          4001,
+          [
+            "string"
+          ]
+        ],
+        [
+          6986,
+          [
+            "chat_dest"
+          ]
+        ],
+        [
+          9571,
+          [
+            "shiftdown"
+          ]
+        ],
+        [
+          9607,
+          [
+            "altdown"
+          ]
+        ],
+        [
+          9675,
+          [
+            "num_nobrainers"
+          ]
+        ],
+        [
+          13663,
+          [
+            "string"
+          ]
+        ],
+        [
+          16351,
+          [
+            "string"
+          ]
+        ],
+        [
+          16764,
+          [
+            "string1"
+          ]
+        ],
+        [
+          16959,
+          [
+            "string2"
+          ]
+        ],
+        [
+          17154,
+          [
+            "string3"
+          ]
+        ],
+        [
+          20506,
+          [
+            "string"
+          ]
+        ],
+        [
+          20856,
+          [
+            "string1"
+          ]
+        ],
+        [
+          21036,
+          [
+            "string2"
+          ]
+        ],
+        [
+          21205,
+          [
+            "string3"
+          ]
+        ],
+        [
+          21554,
+          [
+            "string"
+          ]
+        ],
+        [
+          22704,
+          [
+            "string"
+          ]
+        ],
+        [
+          24249,
+          [
+            "string"
+          ]
+        ],
+        [
+          24550,
+          [
+            "line1"
+          ]
+        ],
+        [
+          24910,
+          [
+            "line2"
+          ]
+        ],
+        [
+          25378,
+          [
+            "units"
+          ]
+        ],
+        [
+          25720,
+          [
+            "string"
+          ]
+        ],
+        [
+          26295,
+          [
+            "old_progress"
+          ]
+        ],
+        [
+          28740,
+          [
+            "default_alignment"
+          ]
+        ]
+      ]
+    },
+    "v_video.c": {
+      "sha256": "4533f227d52c2c75e01e5388b7498bb0371463d19f4682e313069b1b3a578497",
+      "globals": [
+        "I_VideoBuffer",
+        "colrngs",
+        "cr_black",
+        "cr_blue",
+        "cr_blue2",
+        "cr_brick",
+        "cr_bright",
+        "cr_brown",
+        "cr_dark",
+        "cr_gold",
+        "cr_gray",
+        "cr_green",
+        "cr_orange",
+        "cr_purple",
+        "cr_red",
+        "cr_shaded",
+        "cr_tan",
+        "cr_white",
+        "cr_yellow",
+        "dest_screen",
+        "drawcolfunc",
+        "invul_gray",
+        "linesize",
+        "no_crop",
+        "red2col",
+        "translation",
+        "translation2",
+        "v_darkest_color",
+        "v_lightest_color",
+        "video",
+        "x1lookup",
+        "x2lookup",
+        "y1lookup",
+        "y2lookup"
+      ],
+      "locals": [
+        [
+          29823,
+          [
+            "shot"
+          ]
+        ]
+      ]
+    },
+    "w_wad.c": {
+      "sha256": "a0ead67601130d2af6068b109ce4968e8777434626dd1de3ee1c5ddc0a118852",
+      "globals": [
+        "base_handle",
+        "filters",
+        "lumpcache",
+        "lumpinfo",
+        "modules",
+        "numlumps",
+        "subdirs",
+        "wadfiles"
+      ],
+      "locals": [
+        [
+          1998,
+          [
+            "ext"
+          ]
+        ],
+        [
+          4044,
+          [
+            "priority"
+          ]
+        ],
+        [
+          11577,
+          [
+            "lump_wide"
+          ]
+        ]
+      ]
+    },
+    "miniz.c": {
+      "sha256": "7487d4c8cd761b951a99d182672bb3badfa72a5ad5760b70b392fafa95223657",
+      "globals": [],
+      "locals": [
+        [
+          24451,
+          [
+            "s_error_descs"
+          ]
+        ]
+      ]
+    },
+    "engine_sound.c": {
+      "sha256": "a46d4e3d15024cb32febd50a18d6a8d0fe51766526e7793e1e308f711ad33ec3",
+      "globals": [
+        "auto_gain",
+        "channel_gain",
+        "channel_volume",
+        "meter_frames",
+        "music_auto_gain",
+        "music_frames",
+        "music_gain",
+        "music_meter",
+        "music_mid_module",
+        "music_oal_module",
+        "music_paused",
+        "music_playing",
+        "music_ready",
+        "next_music_sample",
+        "oal_use_doppler",
+        "opl_gain",
+        "song_open"
+      ],
+      "locals": []
+    },
+    "engine_input.c": {
+      "sha256": "119c722ebe083e39de6867ff4b4cae2a9f7528c1e939f2c2a3b1685a62ff0e89",
+      "globals": [
+        "gamepad_names"
+      ],
+      "locals": []
+    },
+    "net_netlib.c": {
+      "sha256": "fd9672c29c3ef4269dc209b1b3508a25d22cb04a1978228421b4d943ca5f89dc",
+      "globals": [
+        "addr_table",
+        "addr_table_size",
+        "initted",
+        "netlib_module",
+        "port",
+        "recvpacket",
+        "udpsocket"
+      ],
+      "locals": []
+    },
+    "netlib.c": {
+      "sha256": "ee6b6efe97286ab0d1dca4c9537675de737b07d1f0d6e65d35f04f4dde723186",
+      "globals": [
+        "errorbuf",
+        "netlib_started"
+      ],
+      "locals": []
+    },
+    "d_net.c": {
+      "sha256": "9deab79cf3891047326ac6fe3a671bda4030408fd10b252b2f82025a08d3b7a6",
+      "globals": [
+        "netcmds"
+      ],
+      "locals": [
+        [
+          1121,
+          [
+            "exitmsg"
+          ]
+        ]
+      ]
+    },
+    "net_client.c": {
+      "sha256": "c338ad0f5b64751f9e241e2db69ceb3510964ee0f5a88c7c3ddfd846dc94bd21",
+      "globals": [
+        "client_connection",
+        "client_context",
+        "client_state",
+        "drone",
+        "gamedata_recv_time",
+        "last_latency",
+        "last_ticcmd",
+        "need_to_acknowledge",
+        "net_client_connected",
+        "net_client_received_wait_data",
+        "net_client_reject_reason",
+        "net_client_wait_data",
+        "net_local_deh_sha1sum",
+        "net_local_is_freedoom",
+        "net_local_wad_sha1sum",
+        "net_player_name",
+        "net_waiting_for_launch",
+        "recvwindow",
+        "recvwindow_cmd_base",
+        "recvwindow_start",
+        "send_queue",
+        "server_addr",
+        "settings"
+      ],
+      "locals": [
+        [
+          4080,
+          [
+            "last_error",
+            "cumul_error"
+          ]
+        ],
+        [
+          21726,
+          [
+            "start"
+          ]
+        ],
+        [
+          21755,
+          [
+            "end"
+          ]
+        ],
+        [
+          21789,
+          [
+            "num_tics"
+          ]
+        ]
+      ]
+    },
+    "d_main.c": {
+      "sha256": "30cce6cf83d722296c91baa566c944a1f748dc148b7936f59b981c828da03e6a",
+      "globals": [
+        "advancedemo",
+        "aggromonsters",
+        "autoload_paths",
+        "autostart",
+        "basedefault",
+        "basedirs",
+        "basesavegame",
+        "clcoopspawns",
+        "clfastparm",
+        "clnomonsters",
+        "clpistolstart",
+        "clrespawnparm",
+        "colored_blood",
+        "coopspawns",
+        "csaggromonsters",
+        "csdoubleammo",
+        "cshalfplayerdamage",
+        "cshelperdogs",
+        "demobar",
+        "demoloop_point",
+        "demoloop_prev",
+        "demosequence",
+        "devparm",
+        "doubleammo",
+        "eventhead",
+        "events",
+        "eventtail",
+        "fast_exit",
+        "fastparm",
+        "gamedescription",
+        "halfplayerdamage",
+        "mainwadfile",
+        "nomonsters",
+        "nomusicparm",
+        "nosfxparm",
+        "organize_savefiles",
+        "pagename",
+        "pagetic",
+        "pistolstart",
+        "playback_warp",
+        "quit_prompt",
+        "quit_sound",
+        "respawnparm",
+        "savegamename",
+        "screen_wipe",
+        "screen_wipe_internal",
+        "screenshotdir",
+        "show_endoom",
+        "singletics",
+        "startepisode",
+        "startloadgame",
+        "startmap",
+        "startskill",
+        "wipegamestate"
+      ],
+      "locals": [
+        [
+          5684,
+          [
+            "viewactivestate"
+          ]
+        ],
+        [
+          5726,
+          [
+            "menuactivestate"
+          ]
+        ],
+        [
+          5771,
+          [
+            "oldgamestate"
+          ]
+        ],
+        [
+          5805,
+          [
+            "borderdrawcount"
+          ]
+        ],
+        [
+          25288,
+          [
+            "iwad_found",
+            "demo_found"
+          ]
+        ]
+      ]
+    },
+    "engine_exit.c": {
+      "sha256": "89ab782b7c5656fbd286bde509f6256adb0616caf7a7955e018d2b2f960c4fba",
+      "globals": [
+        "hook_count",
+        "hooks"
+      ],
+      "locals": [
+        [
+          2404,
+          [
+            "empty"
+          ]
+        ]
+      ]
+    },
+    "engine_video.c": {
+      "sha256": "542a9760ceb77f409afc4da95f5cc613afdee66a5c866f5db91d72f317478b53",
+      "globals": [
+        "colors",
+        "correct_aspect_ratio",
+        "current_video_height",
+        "custom_fov",
+        "default_height",
+        "default_uncapped",
+        "default_widescreen",
+        "dynamic_resolution",
+        "fps",
+        "fractionaltic",
+        "frame_count",
+        "gamma2",
+        "last_fps",
+        "resetneeded",
+        "screenvisible",
+        "setrefreshneeded",
+        "toggle_exclusive_fullscreen",
+        "toggle_fullscreen",
+        "uncapped",
+        "view_height",
+        "view_width",
+        "widescreen"
+      ],
+      "locals": [
+        [
+          7917,
+          [
+            "host_values"
+          ]
+        ]
+      ]
+    },
+    "engine_network.c": {
+      "sha256": "006ea45c53b2d96994b7d10340289225651c949632780622a1c661fe36a94549",
+      "globals": [
+        "content_index",
+        "master_responded",
+        "state",
+        "vanilla_server"
+      ],
+      "locals": []
+    }
+  },
+  "posix": {
+    "d_iwad.c": {
+      "sha256": "40d5185e4a05968b1193774979ace54a3ed3b6dfcc1c6aff9ee188a32f6c7410",
+      "globals": [
+        "iwad_dirs",
+        "iwad_dirs_append"
+      ],
+      "locals": [
+        [
+          3384,
+          [
+            "base"
+          ]
+        ],
+        [
+          3800,
+          [
+            "dir"
+          ]
+        ]
+      ]
+    },
+    "m_io.c": {
+      "sha256": "f76407283fc8060e15c5d23ec502a900492db23b253b028639d4c3cbbaf32c72",
+      "globals": [],
+      "locals": []
+    }
+  },
+  "windows": {
+    "d_iwad.c": {
+      "sha256": "40d5185e4a05968b1193774979ace54a3ed3b6dfcc1c6aff9ee188a32f6c7410",
+      "globals": [
+        "iwad_dirs",
+        "iwad_dirs_append",
+        "uninstall_values"
+      ],
+      "locals": [
+        [
+          3384,
+          [
+            "base"
+          ]
+        ],
+        [
+          3800,
+          [
+            "dir"
+          ]
+        ]
+      ]
+    },
+    "m_io.c": {
+      "sha256": "f76407283fc8060e15c5d23ec502a900492db23b253b028639d4c3cbbaf32c72",
+      "globals": [
+        "env_vars"
+      ],
+      "locals": []
+    }
+  }
+}

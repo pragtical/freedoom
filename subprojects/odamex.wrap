@@ -1,0 +1,6 @@
+[wrap-file]
+directory = odamex-src-12.3.0
+source_url = https://github.com/odamex/odamex/releases/download/12.3.0/odamex-src-12.3.0.tar.xz
+source_filename = odamex-src-12.3.0.tar.xz
+source_hash = 308be162980f07dc4d6b4db4fb72dca5ba2eafcb43517ea82f0105edada8c571
+patch_directory = odamex
